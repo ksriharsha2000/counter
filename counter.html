@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+    <script>
+        var count = 0;
+        function addfunction(){
+            x = document.getElementById("display").textContent;
+            x = parseInt(x);
+            x++;
+            document.getElementById("display").textContent = x;
+        }
+        function subtractfunction(){
+            x = document.getElementById("display").textContent;
+            x = parseInt(x);
+            x--;
+            document.getElementById("display").textContent = x;
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+    <header></header>
+    <h1 style = "text-align: center;">Counter</h1>
+    </header>
+    <h1 id="display" style = "text-align: center;">0</h1>
+    <div style="text-align: center;">
+    <button id = "add" onclick="addfunction()" style="text-align: center;">+</button>
+    <button id = "subtract" onclick="subtractfunction()" style="text-align: center;">-</button>
+    </div>
+</body>
+</html>
